@@ -1,0 +1,13 @@
+services:
+  server1:
+    image: httpd:2.4
+    ports:
+    - 8081:80/tcp
+    volumes:
+    - /Users/fredeerock/Devwork/test/1/index.html:/usr/local/apache2/htdocs/index.html:rw
+  server2:
+    image: fredeerock/httpd-basics:1.2
+    ports:
+    - 8080:80/tcp
+version: '3.0'
+
