@@ -1,3 +1,5 @@
+# Simple Dokcer Stack Usage
+
 1. Create and push any needed Docker images to DockerHub
 
 2. Initiate Docker Swarm
