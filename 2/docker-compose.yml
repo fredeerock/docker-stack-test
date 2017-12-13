@@ -1,6 +1,6 @@
 version: "3"
 services:
   server2:
+    image: fredeerock/httpd
     ports:
       - 8080:80
-    image: fredeerock/httpd-basics:1.2
